@@ -38,5 +38,6 @@ passport.use(new GoogleStrategy({
         .catch(err => console.log(err));
       }
     })
+    .catch(err => console.log(err));
 })
 );
